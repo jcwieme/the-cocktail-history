@@ -1,0 +1,27 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      [
+        'build',
+        '--build-arg',
+        'env=prod',
+        '-t',
+        'gcr.io/jcwieme-prd/the-cocktail-history:${SHORT_SHA}',
+        '.',
+      ]
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/jcwieme-prd/the-cocktail-history']
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      [
+        'beta',
+        'run',
+        'deploy',
+        'the-cocktail-history',
+        '--image',
+        'gcr.io/jcwieme-prd/the-cocktail-history:${SHORT_SHA}',
+        '--platform',
+        'managed',
+        '--region',
+        'europe-west1',
+      ]
