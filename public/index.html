@@ -1,17 +1,892 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="fr">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>
+      Le cocktail: Son histoire | TFA | Jean-Christophe Wieme | Design Web &
+      Mobile | Haute École Albert Jacquard
+    </title>
+    <meta
+      name="title"
+      content="Le cocktail: Son histoire | TFA | Jean-Christophe Wieme | Design Web & Mobile | Haute École Albert Jacquard"
+    />
+    <meta
+      name="description"
+      content="Envie d'en apprendre un peu plus sur l'histoire du cocktail ? Viens découvrir cette fabuleuse aventure dans une ambiance jazz des années 20. Rien de tel qu'une bonne musique et de la lecture !"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Favicon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Alegreya:400,800%7CMontserrat:400,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/app.css" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://jeanchristophewieme.be/projets/tfa/"
+    />
+    <meta
+      property="og:title"
+      content="Le cocktail: Son histoire | TFA | Jean-Christophe Wieme | Design Web & Mobile | Haute École Albert Jacquard"
+    />
+    <meta
+      property="og:description"
+      content="Envie d'en apprendre un peu plus sur l'histoire du cocktail ? Viens découvrir cette fabuleuse aventure dans une ambiance jazz des années 20. Rien de tel qu'une bonne musique et de la lecture !"
+    />
+    <meta
+      property="og:image"
+      content="assets/images/base/background--mary-min.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://jeanchristophewieme.be/projets/tfa/"
+    />
+    <meta
+      property="twitter:title"
+      content="Le cocktail: Son histoire | TFA | Jean-Christophe Wieme | Design Web & Mobile | Haute École Albert Jacquard"
+    />
+    <meta
+      property="twitter:description"
+      content="Envie d'en apprendre un peu plus sur l'histoire du cocktail ? Viens découvrir cette fabuleuse aventure dans une ambiance jazz des années 20. Rien de tel qu'une bonne musique et de la lecture !"
+    />
+    <meta
+      property="twitter:image"
+      content="assets/images/base/background--mary-min.jpg"
+    />
   </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+
+  <body
+    data-nav="false"
+    data-info="false"
+    data-load="true"
+    data-chapitre="intro"
+    class="overflow"
+    data-scroll="active"
+    data-desknav="false"
+    data-page="side"
+  >
+    <!-- Message sonore -->
+
+    <div class="addon addon--message" data-animation="closeSlideRightDelay">
+      <div class="message">
+        <img
+          src="assets/images/svg/svg--headphones.svg"
+          alt="headphone logo"
+          class="message__logo"
+        />
+        <div class="message__content">
+          <p class="message__text">Bienvenue à toi&#8239;!</p>
+          <p class="message__text">
+            Pour vivre une meilleure expérience, je t’invite à mettre tes
+            <span class="color bold">écouteurs</span> et
+            <span class="color bold">à lancer la musique</span>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="addon addon--load">
+      <svg
+        id="Calque_1"
+        data-name="Calque 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 454.77 454.77"
+      >
+        <path
+          class="st0"
+          d="M341.88,129.55a9.65,9.65,0,0,0-7.59-15.62h-36a20.39,20.39,0,0,0-8.76-17l2.85-7.25a4.81,4.81,0,0,0-8.95-3.51l-2.88,7.35a20.24,20.24,0,0,0-21.23,12.66l-3,7.7H128.71a9.65,9.65,0,0,0-7.59,15.62L226.7,263.92v75.23a31.12,31.12,0,0,1-31.08,31.07H180.24a4.81,4.81,0,0,0,0,9.61H282.76a4.81,4.81,0,1,0,0-9.61H267.38a31.11,31.11,0,0,1-31.07-31.07V263.92L341.88,129.55Zm-86.5,45.25A21.57,21.57,0,0,1,265.46,177a30.74,30.74,0,0,0,13.86,2.95A30.13,30.13,0,0,0,292,177.47l-60.51,77-60.51-77a30.19,30.19,0,0,0,12.66,2.44A30.77,30.77,0,0,0,197.49,177a24.4,24.4,0,0,1,20.12,0,34,34,0,0,0,27.7,0,21.49,21.49,0,0,1,10.07-2.17Zm12.87-65.06a10.57,10.57,0,0,1,20.4,4.19h-22Zm-139.54,13.8h205.6a.1.1,0,0,1,0,.08l-32.7,41.61a30.46,30.46,0,0,0-12.23,2.92,24.5,24.5,0,0,1-20.16,0,33.73,33.73,0,0,0-6.79-2.29L272.22,141a4.8,4.8,0,1,0-8.94-3.51L252.35,165.3a30.45,30.45,0,0,0-10.83,2.84,24.4,24.4,0,0,1-20.12,0,34,34,0,0,0-27.7,0,24.38,24.38,0,0,1-20.11,0,30.46,30.46,0,0,0-12.23-2.92l-32.7-41.61s0-.07.05-.07ZM241.16,370.22H221.84a40.67,40.67,0,0,0,9.66-11.91A41,41,0,0,0,241.16,370.22Z"
+          transform="translate(-4.11 -4.11)"
+        />
+        <circle class="cls-1" cx="227.39" cy="227.39" r="226.89" />
+      </svg>
+    </div>
+
+    <!-- Mobile Nav -->
+    <button class="btn btn--nav">
+      <span class="btn__text btn__text--nav">NAV</span>
+    </button>
+    <div class="addon addon--nav" data-animation="closeSlideLeft">
+      <a href="#" class="nav__home"
+        ><img
+          class="nav__logo"
+          src="assets/images/desktop/logo.png"
+          srcset="assets/images/desktop/logo@2x.png"
+          alt="logo heaj"
+      /></a>
+
+      <nav class="nav__container">
+        <h1 class="nav__title">
+          Le cocktail&nbsp;:
+          <span class="block">Son <span class="color">histoire</span></span>
+        </h1>
+        <ul class="nav__list">
+          <li class="nav__el">
+            <div
+              class="nav__content nav__content--active"
+              data-chapitre="intro"
+            >
+              <p>Introduction</p>
+              <h2>Première rencontre</h2>
+            </div>
+            <span class="nav__dots nav__dots--active"></span>
+          </li>
+          <li class="nav__el nav__el--right">
+            <div class="nav__content" data-chapitre="debuts">
+              <p>Chapitre 1</p>
+              <h2>Ses débuts</h2>
+            </div>
+            <span class="nav__dots"></span>
+          </li>
+          <li class="nav__el">
+            <div class="nav__content" data-chapitre="prohibition">
+              <p>Chapitre 2</p>
+              <h2>La prohibition</h2>
+            </div>
+            <span class="nav__dots"></span>
+          </li>
+          <li class="nav__el nav__el--right">
+            <div class="nav__content" data-chapitre="souffle">
+              <p>Chapitre 3</p>
+              <h2>Le second souffle</h2>
+            </div>
+            <span class="nav__dots"></span>
+          </li>
+          <li class="nav__el">
+            <div class="nav__content" data-chapitre="jours">
+              <p>Chapitre 4</p>
+              <h2>De nos jours</h2>
+            </div>
+            <span class="nav__dots"></span>
+          </li>
+        </ul>
+        <div class="nav__links">
+          <a href="a-propos/" class="nav__link">À propos</a>
+          <a href="credits/" class="nav__link">Crédits</a>
+          <a href="case-study/" class="nav__link">Case study</a>
+        </div>
+      </nav>
+
+      <div class="nav__progress">
+        <div class="nav__bar"></div>
+      </div>
+    </div>
+
+    <a href="#button" id="#btn" class="btn--music"
+      >Music&#8239;: <span class="bold" id="music">OFF</span></a
+    >
+    <!-- Section introduction -->
+
+    <section
+      class="chapitre chapitre--intro block"
+      data-animation="comeSlideLeftDelay"
+      data-count="2"
+      data-actif="1"
+      data-next="debuts"
+      data-chapitre="0"
+    >
+      <div class="box box--landing" data-block="1">
+        <div class="box__background box__background--intro"></div>
+
+        <div class="box__content box__content--landing">
+          <div class="landing__head">
+            <h2 class="landing__title">
+              Le cocktail&nbsp;:
+              <span class="block">Son <span class="color">histoire</span></span>
+            </h2>
+            <p class="landing__sub">
+              Apprenez en plus sur le fabuleux brevage qu’est le cocktail.
+            </p>
+          </div>
+          <div class="landing__scroll">
+            <p class="sansserif">Faites défiler</p>
+            <p>Découvrez cette <span class="color">histoire</span></p>
+            <button
+              class="btn btn__arrow btn--scroll"
+              data-scroll="intro--suite"
+            >
+              Scroll
+            </button>
+          </div>
+        </div>
+
+        <div class="more">
+          <a href="a-propos/" class="more__link">À propos</a>
+          <a href="credits/" class="more__link">Crédits</a>
+          <a href="case-study/" class="more__link">Case study</a>
+        </div>
+      </div>
+
+      <div class="box box--rencontre" id="intro--suite" data-block="2">
+        <div class="box__background box__background--rencontre"></div>
+
+        <div class="box__content box__content--white">
+          <div class="rencontre__content">
+            <h2 class="rencontre__title">
+              Première <span class="color">rencontre</span>
+            </h2>
+            <p class="rencontre__text sansserif">
+              Salut toi&#8239;! Je me présente. On m’appelle généralement
+              M.Cocktail et quand on me consomme de trop, je peux être dangereux
+              pour la santé. Je suis apprécié car j’agrémente aisément les
+              soirées. Mais sais-tu d’où je viens&#8239;? Quelles sont mes
+              origines&#8239;? Je vais tout t’expliquer&#8239;!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box box--next box--white">
+        <div class="box__content box__content--next">
+          <div class="next__content" data-chapitre="debuts">
+            <p class="next__sub">Chapitre 1</p>
+            <p class="next__title">Les <span class="color">débuts</span></p>
+            <button class="btn btn__arrow btn--next" data-chapitre="debuts">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section chapitre 1 -->
+
+    <section
+      class="chapitre chapitre--debuts"
+      data-count="5"
+      data-actif="1"
+      data-previous="intro"
+      data-next="prohibition"
+    >
+      <div class="box box--landing" data-block="1">
+        <div class="box__background box__background--debuts"></div>
+
+        <div class="box__content box__content--chapitre">
+          <div class="landing__chapitre">
+            <p class="sansserif">Chapitre 1</p>
+            <h2>Les <span class="color">débuts</span></h2>
+            <button
+              class="btn btn__arrow btn--scroll"
+              data-scroll="debuts--suite"
+            >
+              Scroll
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="box box--color box--padding box--martini"
+        id="debuts--suite"
+        data-block="2"
+      >
+        <div class="citation citation--debuts">
+          <blockquote class="citation__content">
+            <p>
+              Cocktail&nbsp;: mélange à base d’eau, de sucre, d'alcool et de
+              <span class="italic">bitter</span>.
+            </p>
+          </blockquote>
+
+          <cite class="citation__author sansserif">
+            <span class="bold">Jerry Thomas</span>
+            <span class="block">« The Bartenders Guide », 1862</span>
+          </cite>
+        </div>
+      </div>
+
+      <div class="box box--jerry" data-block="3">
+        <div class="box__background box__background--jerry"></div>
+
+        <div class="box__content box--padding sansserif">
+          <div class="jerry">
+            <img
+              src="assets/images/base/info--thomas-min.jpg"
+              srcset="assets/images/base/info--thomas@2x-min.jpg 2x"
+              alt="jerry image"
+            />
+            <p>— Illustration du « The Bartenders Guide », Jerry Thomas</p>
+          </div>
+          <p>
+            Ma première apparition sous la dénomination 'cocktail' est plutôt
+            floue, cependant on retrouve mon nom dans les écrits dès 1806 dans
+            le magazine américain 'The Balance'. A cette époque, je suis
+            considéré comme un mélange à base d’eau, de sucre, de
+            <a href="#bitter" class="bold color link link--info">bitter</a> et
+            d’alcool. Mais le premier livre, m’ayant comme sujet, n’est sorti
+            qu’en 1862 sous le titre de&nbsp;: 'The Bartenders Guide', d’un
+            certain
+            <a href="#jerry" class="bold color link link--info">Jerry Thomas</a
+            >.
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--padding box--colorDesktop" data-block="4">
+        <div
+          class="box__background box__background--manhattan box__background--hidden"
+        ></div>
+        <div class="box__content">
+          <p>
+            Dès 1870, avec l’apparition des premiers appareils à glaçons, je
+            deviens très vite un privilège destiné aux lieux de qualité
+            ('elegant cocktail bars') fréquentés par une clientèle aisée. Ma
+            sophistication et mes compositions savantes plaisent aux hautes
+            sphères de la société. Deux de mes recettes sortent du lot, le '<a
+              href="#manhattan"
+              class="color bold link link--recette"
+              >Manhattan</a
+            >' ainsi que le '<a
+              href="#martini"
+              class="color bold link link--recette"
+              >Dry Martini</a
+            >'.
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--paris" data-block="5">
+        <div class="box__background box__background--paris"></div>
+
+        <div class="box__content box--padding sanserif">
+          <p>
+            Malheureusement, je ne suis connu que sur le continent américain.Il
+            faudra attendre 1889 avec
+            <a href="#paris" class="bold color link link--info"
+              >l’exposition universelle de Paris</a
+            >
+            pour que je m'étende en Europe. C’est avec l’apparition des premiers
+            bars américains que les européens apprennent à me connaître.
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--next">
+        <div class="box__content box__content--next">
+          <div class="next__content" data-chapitre="prohibition">
+            <p class="next__sub">Chapitre 2</p>
+            <p class="next__title">La <span class="color">prohibition</span></p>
+            <button
+              class="btn btn__arrow btn--next"
+              data-chapitre="prohibition"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section chapitre 2 -->
+
+    <section
+      class="chapitre chapitre--prohibition"
+      data-count="5"
+      data-actif="1"
+      data-previous="debuts"
+      data-next="souffle"
+    >
+      <div class="box box--landing" data-block="1">
+        <div class="box__background box__background--prohibition"></div>
+
+        <div class="box__content box__content--chapitre box__content--white">
+          <div class="landing__chapitre">
+            <p class="sansserif">Chapitre 2</p>
+            <h2>La <span class="color">prohibition</span></h2>
+            <button
+              class="btn btn__arrow btn__arrow--white btn--scroll"
+              data-scroll="prohibition--suite"
+            >
+              Scroll
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="box box--padding box--colorDesktop"
+        id="prohibition--suite"
+        data-block="2"
+      >
+        <div
+          class="box__background box__background--usa box__background--hidden"
+        ></div>
+        <div class="box__content">
+          <p>
+            À l’aube de mon succès, le gouvernement américain décide d’interdire
+            la vente d’alcool sur son sol, ma terre de naissance. Cette
+            <a href="#prohibition" class="color bold link link--info"
+              >prohibition</a
+            >
+            a été une période difficile pour moi, mais pas totalement. Désormais
+            illégal, je demeure populaire auprès de la pègre et de la
+            bourgeoisie.
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--mary" data-block="3">
+        <div class="box__background box__background--mary"></div>
+
+        <div class="box__content box--padding sanserif">
+          <p>
+            Ne manquant pas d’imagination et afin de cacher le goût de l’alcool,
+            les humains ont commencé à me mélanger avec des jus de fruits ou des
+            sodas. C’est ainsi que sont nés le '<a
+              href="#cuba"
+              class="bold color link link--recette"
+              >Cuba Libre</a
+            >' ou le '<a href="#mary" class="bold color link link--recette"
+              >Bloody Mary</a
+            >', vendus comme remède pour la gueule de bois. épiés par les
+            représentants de l’ordre, les barmen placent une plume de coq afin
+            de signaler la présence d’alcool. Mon nom devient dès lors plus
+            générique.
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--colorDesktop box--padding" data-block="4">
+        <div class="video">
+          <video autoplay loop>
+            <source
+              src="assets/images/desktop/background--libre.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="citation citation--prohibition">
+          <blockquote class="citation__content">
+            <p class="italic">Pro Cuba Libre&#8239;!</p>
+          </blockquote>
+
+          <cite class="citation__author sansserif">
+            <span class="bold">— Un soldat américain</span>, 1898
+          </cite>
+        </div>
+      </div>
+
+      <div class="box box--cuba" data-block="5">
+        <div class="box__background box__background--cuba"></div>
+
+        <div class="box__content box--padding">
+          <p>
+            Mais ce n’est pas tout&#8239;! Afin de boire de l’alcool en toute
+            légalité, certaines agences de voyages se spécialisent dans les
+            séjours à Cuba. Cependant, le goût trop fort du rhum oblige les
+            barmen à s’adapter, ce qui n’est pas une mauvaise chose puisque mon
+            livre de recette s’est vu accueillir un nouveau membre, le
+            <a href="#mojito" class="bold color link link--recette">Mojito</a
+            >&#8239;! Cuba est très vite devenu ma terre promise&#8239;!
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--next">
+        <div class="box__content box__content--next">
+          <div class="next__content" data-chapitre="souffle">
+            <p class="next__sub">Chapitre 3</p>
+            <p class="next__title">
+              Le <span class="color">second souffle</span>
+            </p>
+            <button class="btn btn__arrow btn--next" data-chapitre="souffle">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section chapitre 3 -->
+
+    <section
+      class="chapitre chapitre--souffle"
+      data-count="5"
+      data-actif="1"
+      data-previous="prohibition"
+      data-next="jours"
+    >
+      <div class="box box--landing" data-block="1">
+        <div class="box__background box__background--souffle"></div>
+
+        <div class="box__content box__content--chapitre box__content--white">
+          <div class="landing__chapitre">
+            <p class="sansserif">Chapitre 3</p>
+            <h2>Le <span class="color">second souffle</span></h2>
+            <button
+              class="btn btn__arrow btn__arrow--white btn--scroll"
+              data-scroll="souffle--suite"
+            >
+              Scroll
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="box box--color box--padding box--margerita"
+        id="souffle--suite"
+        data-block="2"
+      >
+        <div class="citation citation--souffle">
+          <blockquote class="citation__content">
+            <p>
+              Je passe toujours un moment merveilleux, où que je sois, avec qui
+              je sois.
+            </p>
+          </blockquote>
+
+          <cite class="citation__author sansserif">
+            <span class="bold">Margaret Sames</span>
+            <span class="block">Créatrice de la Margarita, 1948</span>
+          </cite>
+        </div>
+      </div>
+
+      <div class="box box--vodka" data-block="3">
+        <div class="box__background box__background--vodka"></div>
+
+        <div class="box__content box--padding">
+          <p>
+            Au fil du temps, avec l’arrivée de la vodka sur la marché américain,
+            dans les années 1940, et de la tequila, dans les années 1960, je
+            trouve mon second souffle. Plusieurs recettes s’additionnent
+            rapidement à mon histoire, comme notamment la '<a
+              href="#margarita"
+              class="bold color link link--recette"
+              >Margarita</a
+            >' et grâce à l’évolution des moyens de communication, je me propage
+            en un rien de temps. Ainsi, quand une recette fonctionne sur ma
+            terre natale, elle conquiert rapidement le reste de la planète.
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--padding box--colorDesktop sansserif" data-block="4">
+        <div class="video video--flair">
+          <video autoplay loop>
+            <source
+              src="assets/images/desktop/background--flair.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="box__content">
+          <p>
+            S’ajoutant à cela, l’apparition du 'flair bartending’ m’accorde une
+            réputation mondiale, eh ouais, rien que ça&#8239;! Ma création
+            devient alors un show à part entière, avec l’introduction de
+            compétitions riches en enchaînements acrobatiques, expérimentations
+            improbables et décorations souvent bien trop chargées. Le film
+            intitulé “Cocktail” traite d’ailleurs le sujet de manière exquise,
+            si bien qu’il popularise le flair au sein du grand public.
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--flair box--padding" data-block="5">
+        <div class="box__background box__background--flair"></div>
+
+        <div class="box__content box__content--flair">
+          <div class="flair">
+            <video autoplay loop>
+              <source src="assets/images/gif--flair.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p>
+            Dans le courant des années 90, je deviens de plus en plus répandu
+            grâce à l’explosion démographique des bars. Nous entrons dans un
+            nouvel ère, celui de la concurrence. Le métier est très facile
+            d’accès, les barmen se multiplient, il est difficile de se
+            démarquer, contraignant le milieu à favoriser les recettes connues
+            et appréciées du grand public. C’est ainsi que mes grands classiques
+            prennent la place de mes recettes trop sucrées. Cependant me servir
+            est plus stylé grâce à l’influence du flair&#8239;!
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--next">
+        <div class="box__content box__content--next">
+          <div class="next__content" data-chapitre="jours">
+            <p class="next__sub">Chapitre 4</p>
+            <p class="next__title">De <span class="color">nos jours</span></p>
+            <button class="btn btn__arrow btn--next" data-chapitre="jours">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section chapitre 4 -->
+
+    <section
+      class="chapitre chapitre--jours"
+      data-count="5"
+      data-actif="1"
+      data-previous="souffle"
+    >
+      <div class="box box--landing" data-block="1">
+        <div class="box__background box__background--jours"></div>
+
+        <div class="box__content box__content--chapitre box__content--white">
+          <div class="landing__chapitre">
+            <p class="sansserif">Chapitre 4</p>
+            <h2>De <span class="color">nos jours</span></h2>
+            <button
+              class="btn btn__arrow btn__arrow--white btn--scroll"
+              data-scroll="jours--suite"
+            >
+              Scroll
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="box box--padding box--colorDesktop sansserif"
+        id="jours--suite"
+        data-block="2"
+      >
+        <div
+          class="box__background box__background--party box__background--hidden"
+        ></div>
+        <div class="box__content box__special">
+          <p>
+            Au début du 21ème siècle, la tendance est aux recettes avec des
+            fruits frais de saison, mixés ou pilés. On me retrouve très souvent
+            sous forme de
+            <a href="#caipirinha" class="bold color link link--recette"
+              >Caipirinha</a
+            >
+            mais paradoxalement, mes recettes moins 'naturelles' (Whisky Coca -
+            Vodka Orange) ont une croissance exceptionnelle auprès des jeunes,
+            surtout dans le milieu des boîtes de nuit.
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--mode" data-block="3">
+        <div class="box__background box__background--mode"></div>
+
+        <div class="box__content box__content--white box--padding">
+          <p>
+            Dès 2005, je deviens une boisson raffinée et sophistiquée, consommée
+            à l’occasion de soirées chics ou mondaines. Sans vouloir me vanter,
+            je me qualifierais comme un art de vivre, c’est vrai après tout, je
+            permets tout de même la découverte de nouvelles saveurs et textures.
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--colorDesktop box--padding" data-block="4">
+        <div
+          class="box__background box__background--friends box__background--hidden"
+        ></div>
+
+        <div class="citation citation--jours">
+          <blockquote class="citation__content">
+            <p>
+              Un cocktail bien fait peut vraiment montrer à vos invités que vous
+              les aimez.
+            </p>
+          </blockquote>
+
+          <cite class="citation__author sansserif">
+            <span class="bold">Danny Meyer</span>
+            <span class="block">Restaurateur</span>
+          </cite>
+        </div>
+      </div>
+
+      <div class="box box--crise" data-block="5">
+        <div class="box__background box__background--crise"></div>
+
+        <div class="box__content box__content--white box--padding">
+          <p>
+            Avec la crise économique en 2008 et la baisse du pouvoir d’achat qui
+            a suivie, les humains se sont lancés dans une quête de qualité à un
+            prix abordable. “Home sweet home” comme dirait l’expression
+            puisqu’on commence à me fabriquer à la maison. Recevoir des amis se
+            fait avec raffinement, sirops et liqueurs maison sont de rigueur à
+            mon grand plaisir et certains n’hésitent pas à s’improviser barman
+            en me servant avec style&#8239;!
+          </p>
+        </div>
+      </div>
+
+      <div class="box box--next box--white">
+        <div class="box__content box__content--next">
+          <div class="next__content" data-chapitre="study">
+            <p class="next__sub">Prochaine étape</p>
+            <p class="next__title">Case <span class="color">study</span></p>
+            <button class="btn btn__arrow btn--next" data-chapitre="study">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Div info recettes -->
+
+    <div class="addon addon--recette" data-animation="closeSlideRight">
+      <button class="btn btn--close btn--info" data-addon="recette">
+        Close
+      </button>
+
+      <!-- menu de la addon -->
+      <div class="recette__top">
+        <div class="recette__background"></div>
+        <h2 class="recette__title">Martini vodka</h2>
+        <div class="recette__nav">
+          <a
+            href="#histoire"
+            class="recette__link recette__link--histoire recette__link--active"
+            >Histoire</a
+          >
+          <a href="#recette" class="recette__link recette__link--recette"
+            >Recette</a
+          >
+        </div>
+      </div>
+
+      <!-- addon recette -->
+      <div class="recette recette__recette" id="recette">
+        <ol class="recette__ingredients"></ol>
+        <ul class="recette__etapes">
+          <li class="recette__el">
+            <div class="recette__content">
+              <h3>Etape 1</h3>
+              <p>Réalisez</p>
+            </div>
+          </li>
+          <li class="recette__el">
+            <div class="recette__content">
+              <h3>Etape 1</h3>
+              <p>Réalisez</p>
+            </div>
+          </li>
+          <li class="recette__el">
+            <div class="recette__content">
+              <h3>Etape 1</h3>
+              <p>Réalisez</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="recette recette__histoire recette--active" id="histoire">
+        <p>Jennie</p>
+
+        <p>C’est</p>
+      </div>
+    </div>
+
+    <!-- Div info autres -->
+
+    <div class="addon addon--info" data-animation="closeSlideRight">
+      <button class="btn btn--close btn--info" data-addon="info">Close</button>
+
+      <div class="info__top">
+        <div class="info__background"></div>
+        <p class="info__sub">
+          — <span class="info__sub--text">this is an image</span>
+        </p>
+      </div>
+
+      <div class="info__content">
+        <h2 class="info__title">Bitter</h2>
+        <div class="info__text">
+          <p>Un</p>
+          <p>Au</p>
+        </div>
+      </div>
+    </div>
+
+    <audio loop id="audio-1">
+      <source src="assets/musics/jazz.ogg" type="audio/ogg" />
+    </audio>
+
+    <audio loop id="audio-3">
+      <source src="assets/musics/bar.ogg" type="audio/ogg" />
+    </audio>
+
+    <audio loop id="audio-2">
+      <source src="assets/musics/vodka.ogg" type="audio/ogg" />
+    </audio>
+    <audio id="audio-4">
+      <source src="assets/musics/page.ogg" type="audio/ogg" />
+    </audio>
+    <audio loop id="audio-5">
+      <source src="assets/musics/police.ogg" type="audio/ogg" />
+    </audio>
+    <audio id="audio-6">
+      <source src="assets/musics/ice.ogg" type="audio/ogg" />
+    </audio>
+    <audio loop id="audio-7">
+      <source src="assets/musics/libre--explosion.ogg" type="audio/ogg" />
+    </audio>
+    <audio loop id="audio-8">
+      <source src="assets/musics/libre--gun.ogg" type="audio/ogg" />
+    </audio>
+    <audio id="audio-9">
+      <source src="assets/musics/shaker.ogg" type="audio/ogg" />
+    </audio>
+    <audio id="audio-10">
+      <source src="assets/musics/cocktail.ogg" type="audio/ogg" />
+    </audio>
+    <audio loop id="audio-11">
+      <source src="assets/musics/stir.ogg" type="audio/ogg" />
+    </audio>
+    <audio loop id="audio-12">
+      <source src="assets/musics/partyclub.ogg" type="audio/ogg" />
+    </audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="assets/scripts/jquery.js"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>

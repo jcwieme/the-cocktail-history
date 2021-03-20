@@ -1,0 +1,96 @@
+{
+    "bitter":{
+        "title" : "Bitter",
+        "img" : "info--bitter-min.jpg",
+        "imgHigh" : "info--bitter@2x-min.jpg",
+        "alt" : "Collection de bitter's",
+        "text" : ["Un bitter ('amer' en anglais) est une boisson alcoolisée aromatisée aux herbes. Plusieurs marques de bitter existent avec chacune des recettes différentes.","Au départ reconnus pour leurs vertus médicinales, les bitters sont aujourd’hui considérés comme des digestifs ou des ingrédients de cocktails. Leur degré d’alcool varie mais reste généralement aux environs de 45%. Il existe aussi des bitters sans alcool. Les bitters sont préparés par l’infusion ou la distillation, utilisant des herbes aromatiques, l’écorce des racines, et ou le fruit pour leur saveur et leurs propriétés médicinales.","L’Angostura bitter a été d’abord élaboré au Venezuela en 1824 par un médecin allemand, docteur Johann Gottlieb Benjamin Siegert, comme un remède pour le mal de mer et des maux d’estomac. L’angostura bitter est aujourd’hui le plus connu des bitters. Docteur Siegert a créé cet élixir amer (à base d’écorce d’angostura, de racine de gentiane, de rhum et d’autres ingrédients) comme un fortifiant pour stimuler les appétits des troupes et améliorer leur santé.","Toujours pris comme un digestif, l’angostura bitter est souvent utilisé aujourd’hui comme un arôme dans des produits alimentaires et des boissons. C’est un ingrédient de base dans beaucoup de cocktails comme le Manhattan."]
+    },
+    
+    "jerry":{
+        "title" : "Jerry Thomas",
+        "img" : "info--jerry-min.jpg",
+        "imgHigh" : "info--jerry@2x-min.jpg",
+        "alt" : "Image de Jerry Thomas en plein show",
+        "text" : ["Jerry Thomas (1830 – 1885) est un barman américain. En tant que pionnier de la tradition des cocktails à travers des États-Unis, il est considéré comme le fondateur de la mixologie.", "Thomas est né en 1830 à Sackets Harbor. Il apprend son métier à New Haven avant de s'embarquer sur un bateau lors de la Ruée vers l'or en Californie. Arrivé en Californie, il continue son métier en parallèle avec d'autres métiers dont chercheur d'or et directeur de minstrel show. Il revient à New York en 1851 et il devient patron d'un salon situé sous le Musée Américain P.T. Barnum, dont le propriétaire est Phineas Taylor Barnum, homme de spectacle américain. C'est le premier des quatre établissements qu'il dirige durant sa carrière new-yorkaise. Il voyage plusieurs années d'hôtels en salons.","En 1862, Thomas publie le 'Bar-Tender’s Guide', premier livre de l'histoire concernant la boisson et les alcools publiés aux États-Unis. L'ouvrage reprend et référence la tradition des mélanges alcoolisés (jusqu’alors, la tradition était exclusivement orale) ainsi que ses propres créations. Le livre est réédité plusieurs fois et complété de nouvelles créations ou de nouvelles boissons.","Tout au long de sa carrière, Jerry ne cesse jamais à développer ses créations. La signature de Jerry Thomas, le Blue Blazer est développé au salon de jeux de hasard El Dorado à San Francisco : enflammer du whisky et le mixer en le faisant passer d'un verre à mélange à un autre, créant ainsi un arc de flammes. Il retravaille un cocktail du nom de Martinez pour en faire un produit qui a inspiré le Martini actuel. Jerry Thomas affirme également avoir inventé le cocktail Tom & Jerry et l'avoir popularisé, certaines sources attestent que ce mélange est antérieur à sa carrière."]
+    },
+    
+    "paris":{
+        "title" : "Exposition universelle de Paris 1889",
+        "img" : "info--paris-min.jpg",
+        "imgHigh" : "info--paris@2x-min.jpg",
+        "alt" : "Illustration de l'exposition universelle de 1889",
+        "text" : ["Pour le centenaire de la Révolution Française et la chute de la monarchie, Paris décide dès 1878 d'organiser une exposition universelle exceptionnelle en 1889. Pour cette raison politique, elle est boudée très officiellement par toutes les monarchies européennes.", "Pour faciliter la venue des provinciaux, le billet de train a été couplé avec l’entrée à l’exposition. Le billet mixte offre 25 % de réduction sur le train avec une franchise de bagage de 30 Kg. L’entrée générale de l’expo est à un franc, mais en plus il faut s’acquitter d’un supplément pour visiter les attractions les plus spectaculaires.","L’aspect didactique s’efface pour faire émerger un côté plus ludique, les expos deviennent des divertissements et prouvent l’importance du loisir dans la société. Néanmoins, toutes les attractions ont un prix, il faut débourser cinq  francs pour monter en haut de la tour Eiffel, un franc pour entrer dans la sphère terrestre, un franc pour le pavillon de la mer, etc.","Avec 61 722 exposants dont 27 000 étrangers et surtout trente-deux millions de visiteurs, cette expo est la première à équilibrer ses comptes avec un bénéfice de huit millions de francs. Paris s’embellit, la gare Saint-Lazare est entièrement restructurée, par Just Lisch, de même la gare de Lyon se dote d’un hôtel Terminus.  L’exposition s’agrandit. L’esplanade des Invalides où l’on trouve les colonies françaises et le ministère de la guerre s’ajoute au Trocadéro et au Champ de Mars où sont placés l’Art et l’Industrie.","Le caractère prédominant de cette exposition représente la part colossale de l’architecture métallique avec le Palais des Machines et la tour Eiffel deux bâtiments qui enfin montrent leurs dessous.","Outre l'immense Palais des Machines au fond du champ de Mars, les Arts Libéraux et les Beaux-Arts, les groupes divers sont présentés dans d’autres galeries du Champs de Mars d’une facture plus classique. Les gens s’extasient devant les phonographies et les téléphones. On apprend au pavillon du pétrole que la formation de ce combustible est peut-être due à la distillation de la houille ou du schiste ou encore, on ne sait pas bien de l’action de l’eau sur certaines substances minérales ou de la décomposition de végétaux. et d’animaux. On apprend encore que les principaux gisements se trouvent aux Etats-Unis, au Caucase, en Galicie et en Roumanie.","L’exposition ferme ses portes début novembre au son du canon tiré depuis le dernier étage de la Tour Eiffel."]
+    },
+    
+    "prohibition":{
+        "title" : "La prohibition",
+        "img" : "landing--prohibition-min.jpg",
+        "imgHigh" : "landing--prohibition@2x-min.jpg",
+        "alt" : "Photo prise dans un restaurant lors de la prohibtion",
+        "text" : ["À la fin de la première guerre mondiale, les États-Unis s'engagent dans une ère de modernisation et découvrent la société de consommation. L'âge d'or américain se caractérise par une croissance importante, par un développement de l'industrie et une immigration grandissante. De nombreux Irlandais et Écossais foulent le sol américain, et avec eux leur savoir-faire en matière de distillation. L'alcool se répand alors sur le territoire. Très vite, le courant conservateur, très actif, dénonce les effets des boissons alcoolisées sur le comportement des hommes.", "Le lobby conservateur s'organise et parvient à faire interdire l'alcool dans 32 États. Le mouvement est largement soutenu par les pasteurs qui souhaitent « moraliser » la société, mais aussi par les femmes qui associent la consommation d’alcool aux violences conjugales. La guerre de 1914-1918 finit par convaincre les plus sceptiques du bien-fondé d'une interdiction totale sur l'efficacité des soldats au front. En 1917, le principe de la prohibition est accepté par le Sénat, puis par la Chambre des représentants. Il faudra attendre le 29 janvier 1919 pour que le 18e amendement soit ajouté à la Constitution.","La prohibition aux États-Unis, qui dura de 1919 à 1933, est le point de départ d'un vaste marché de contrebande dirigé par une mafia italo-américaine naissante. C'est ainsi que des noms célèbres tels qu'Al Capone bâtissent des fortunes colossales."]
+    },
+    
+    "manhattan":{
+        "title":"Manhattan",
+        "img":"recette--manhattan-min.jpg",
+        "imgHigh":"recette--manhattan@2x-min.jpg",
+        "ingredients":["4 cl de whisky","2 cl de vermouth rouge","5 gouttes d'angostura"],
+        "etapes": ["Réalisez la recette 'Manhattan' dans un verre à mélange.","Versez les ingrédients dans un verre à mélange avec des glaçons et agitez vigoureusement avec une cuillère à mélange. Passez dans le verre préalablement rafraîchi en retenant les glaçons.","Servir dans un verre de type 'verre à martini' ou 'verre à margarita'.","Une cerise au fond du verre."],
+        "histoire": ["Jennie Jerome. Ce nom ne vous dit rien ? Cette femme, qui pourrait être à l’origine de l’un de mes plus grands classiques, n’est autre que… La mère de Winston Churchill !","C’est lors d’un banquet, donné en l’honneur d’un candidat à l’élection présidentielle américaine en 1874 par Jennie Jerome, que le barman du Manhattan Club qui officiait ce soir-là, crée cette recette composée de whisky, de vermouth, de Bitters et d’une cerise à l’eau-de-vie déposée délicatement au fond du verre."]
+    },
+    
+    "martini":{
+        "title":"Dry Martini",
+        "img":"recette--martini-min.jpg",
+        "imgHigh":"recette--martini@2x-min.jpg",
+        "ingredients":["5 cl de gin","1 cl de vermouth dry"],
+        "etapes": ["Réalisez la recette 'Dry martini' dans un verre à mélange.","Verser le vermouth et le gin dans le verre à mélange. Remplir de Glaçons au 2/3. Frapper rapidement avec la cuillère à mélange de haut en bas. Servir en retenant les glaçons dans le verre rafraîchi et décoré d'un olive piquée d'un bâton au fond du verre.","Servir dans un verre de type 'verre à martini'.","Une olive au fond du verre. Vous pouvez la piquer avec un cure-dents afin qu'elle soit plus accessible."],
+        "histoire": ["Cette recette a été créée en 1904 par le barman anglais Frank P. Newman alors qu’il officiait place de l’Opéra à Paris au Grand Hôtel Intercontinental. Il publie, la même année, sa recette dans son livre « American Bar – Recettes des Boissons Anglaises et Américaines ».","Je deviens très populaire pendant la prohibition (1920-1933) grâce à la production croissante du Gin, plus rapide à produire que le whisky. Dans les années 1960, le Dry Martin arrive à l’apogée de son succès avec le célèbre film James Bond.","Mais attention, la version de James Bond dans les derniers films est une version où le Gin est remplacé par de la Vodka russe de préférence."]
+    },
+    
+    "cuba":{
+        "title":"Cuba Libre",
+        "img":"recette--cuba-min.jpg",
+        "imgHigh":"recette--cuba@2x-min.jpg",
+        "ingredients":[" 6 cl de rhum cubain","4 cl de jus de citrons verts","15 cl de cola"],
+        "etapes": ["Réalisez la recette 'Cuba libre' directement dans le verre.","Verser citron et rhum sur des glaçons. Compléter avec le coca cola. Remuer lentement.","Servir dans un verre de type 'tumbler'.","Décorer avec une tranche de citron vert."],
+        "histoire": ["Ma recette serait née, comme son nom l’indique, au moment de la libération de Cuba en 1898. L’histoire dit que qu’un soldat serait entré dans un bar et aurait commandé un Rhum - Coca accompagné d’une tranche de citron vert et aurait levé son verre 'Por Cuba Libre!', cri de guerre des troupes américaines durant la Guerre.","Le succès de ma recette est notamment dû à l’époque de la prohibition, mélangé le Rhum au Coca permettait de passer les frontières plus facilement pour la contrebande, l’odeur étant beaucoup moins forte donc plus difficilement détectable."]
+    },
+    
+    "mary":{
+        "title":"Bloody Mary",
+        "img":"recette--mary-min.jpg",
+        "imgHigh":"recette--mary@2x-min.jpg",
+        "ingredients":["4 cl de vodka","12 cl de jus de tomates","1/2 cl de jus de citrons","1/2 cl de sauce worcestershire","2 gouttes de tabasco","Sel de céleri","Sel","Poivre"],
+        "etapes": ["Réalisez la recette 'Bloody Mary' dans un verre à mélange.","Agiter les ingrédients dans un verre à mélange avec des glaçons (pour refroidir sans trop diluer). Verser dans le verre, puis ajouter à convenance sel de céleri, sel et poivre. Décorer avec une tige de céleri et optionnellement, une rondelle de citron.","Servir dans un verre de type 'tumbler'.","Décorer d'une branche de céleri."],
+        "histoire": ["Les origines de cette recette explosive sont très floues. Cependant la version la plus répandue veut que cette recette ait été créée en 1921, au New York bar, ancêtre du Harry’s bar, à Paris. Son créateur, Ferdinand Petiot (dite « Pete ») aurait concocté ce cocktail pour l’acteur américain Roy Barton. Cette recette est très prisée lors de la prohibition car le jus de tomate cachait l’odeur de l’alcool.","Ma recette est aujourd’hui très célèbre. Plus d’un million de Bloody Mary seraient servis aux États-Unis quotidiennement. Il compte de nombreuses variantes dont le Bloody Masha, ou encore le Red Snapper où la vodka est remplacée par le gin.","Et d’où peut bien provenir son nom ? Eh bien, il ferait référence à Mary Tudor, fille d’Henry VIII, qui était elle-même surnommée « Bloody Mary », Marie la Sanglante. Un surnom pas vraiment usurpé puisque cette reine d’Angleterre compte, à son actif, de très nombreuses exécutions d’opposants politique."]
+    },
+    
+    "mojito":{
+        "title":"Mojito",
+        "img":"recette--mojito-min.jpg",
+        "imgHigh":"recette--mojito@2x-min.jpg",
+        "ingredients":["6 cl de rhum cubain","3 cl de jus de citrons verts","7 feuilles de menthe","Eau gazeuse","2 cl de sirop de sucre de canne"],
+        "etapes": ["Réalisez la recette 'Mojito' directement dans le verre.","Placer les feuilles de menthe dans le verre, ajoutez le sucre et le jus de citrons. Piler consciencieusement afin d'exprimer l'essence de la menthe mais sans la broyer. Ajouter le rhum, remplir le verre à moitié de glaçons et compléter avec de l'eau gazeuse. Mélanger doucement et servir avec une paille.","Servir dans un verre de type 'tumbler'.","Décorer de feuilles de menthe fraîches et d'une tranche de citron."],
+        "histoire": ["Selon certaines histoires, ma recette serait la version évoluée d’une recette née au début du 16ème siècle. Le corsaire anglais Francis Drake, surnommé 'El Draque', aurait été un adepte des feuilles de menthe pilées dans du 'trafia' (eau de vie de canne à sucre). Plus tard, le rhum remplace le trafia et le 'Draque' devint le 'Mojito'.","En 1920, ma recette devient l’un des emblèmes de la culture cubaine : elle a été élevée au rang de 'cocktail nationale de Cuba'. De Cuba, je me suis exporté aux États-Unis, puis en Europe. Ce serait la recette la plus préparée dans les bars du monde entiers."]
+    },
+    
+    "margarita":{
+        "title":"Margarita",
+        "img":"recette--margarita-min.jpg",
+        "imgHigh":"recette--margarita@2x-min.jpg",
+        "ingredients":["5 cl de tequila","3 cl de triple sec","2 cl de jus de citrons verts"],
+        "etapes": ["Réalisez la recette 'Margarita' au shaker.","Frapper les ingrédients au shaker avec des glaçons puis verser dans le verre givré au citron et au sel fin.","Pour givrer facilement le verre, passer le citron sur le bord du verre et tremper les bords dans le sel.","Servir dans un verre de type 'verre à margarita'.","Décorer d'une tranche de citron vert."],
+        "histoire": ["Un grand nombre de spécialistes s’accordent sur le fait que ma recette aurait été inventée par une Américaine du nom de Margaret Sames, surnommée 'Margarita'. Elle aurait eu pour habitude de servir à ses invités un breuvage composé de Tequila, Cointreau et de jus de citron vert frais. C’est dans sa maison que la forme classique de ma recette serait née. ","Ma recette s’impose rapidement à travers le monde entier. D’abord associée à la plage et au soleil, elle devient vite l’objet de toutes les attentions dans les bars branchés et contemporains des grandes villes. Elle s’invite aussi chez les particuliers grâce à sa facilité de réalisation, avec des ingrédients peu nombreux et accessibles."]
+    },
+    
+    "caipirinha":{
+        "title":"Caipirinha",
+        "img":"recette--caipirinha-min.jpg",
+        "imgHigh":"recette--caipirinha@2x-min.jpg",
+        "ingredients":["6 cl de cachaça","1 citron vert","1 cuillère à soupe de sucre"],
+        "etapes": ["Réalisez la recette 'Caipirinha' directement dans le verre.","Lavez le citron vert et coupez les deux extrémités. Coupez le citron en 8 ou 9 morceaux et retirez la partie blanche centrale responsable de l'amertume. Placez les morceaux dans le verre et versez une bonne cuillère à soupe de sucre. Pilez fermement le tout dans le verre avec le sucre en poudre jusqu'à l'extraction la plus complète possible du jus. Recouvrir le mélange citron-sucre d'une bonne couche de glace pilée, concassée ou de glaçons simples (ras bord), puis faire le niveau à la cachaça jusqu'à un doigt du bord.","Ne pas rajouter de sucre après l'adjonction de la glace (le nouveau sucre ne se dissout plus). Mélanger légèrement avec un mélangeur et servir avec une ou deux petites pailles (au cas où l'une soit bouchée par la glace ou la pulpe du citron)."],
+        "histoire": ["Il y a plusieurs histoires à propos de l’origine de cette recette.","Une des histoires les plus acceptées raconte que la caipirinha est originaire de l'État de São Paulo et date de la fin de la Première Guerre mondiale. La recette originale se compose de cachaça, citron (jaune), miel et ail. La boisson est d’abord préparée comme un élixir pour les patients souffrant de la grippe espagnole grâce à sa haute teneur en vitamine C et sa facilité d’absorption.","Avec les années, ma recette commence à se répandre partout au Brésil, mais ce n’est qu’en 1922 qu’elle obtient une reconnaissance internationale. Cette année, les modernistes brésiliens ont choisi la caipirinha en tant que boisson officielle de la semaine d’art moderne, une manifestation artistique qui se déroule en février 1922. Ma recette a peu de temps après été introduite à Paris par les modernistes français et elle commence à être reconnue partout dans le monde."]
+    }
+}
